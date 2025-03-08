@@ -1,0 +1,49 @@
+/*
+Theme Name: Makers Momentum Mastery
+Theme URI: https://makersmomemtummastery.com
+Author: Your Name
+Description: A modern WordPress theme for Maker's Momentum Mastery digital marketing consulting firm
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: makers-momentum
+*/
+
+/* WordPress Core CSS classes will inherit Tailwind styles from functions.php */
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption-text {
+    font-style: italic;
+    color: #666;
+}
+
+.sticky {
+    display: block;
+}
+
+.gallery-caption {
+    display: block;
+}
+
+.bypostauthor {
+    display: block;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 1.5em;
+}
+
+.alignright {
+    float: right;
+    margin-left: 1.5em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
